@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="3" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.322617">
+    <testsuite name="Unit" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.008745">
+      <testsuite name="Tests\Unit\ExampleTest" file="/Users/sonkun/workspace/laravel-ci-sample/tests/Unit/ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.008745">
+        <testcase name="test_example" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="/Users/sonkun/workspace/laravel-ci-sample/tests/Unit/ExampleTest.php" line="14" assertions="1" time="0.008745"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature" tests="2" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.313872">
+      <testsuite name="Tests\Feature\ExampleTest" file="/Users/sonkun/workspace/laravel-ci-sample/tests/Feature/ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.296403">
+        <testcase name="test_example" class="Tests\Feature\ExampleTest" classname="Tests.Feature.ExampleTest" file="/Users/sonkun/workspace/laravel-ci-sample/tests/Feature/ExampleTest.php" line="15" assertions="1" time="0.296403"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\Http\Controllers\HomeControllerTest" file="/Users/sonkun/workspace/laravel-ci-sample/tests/Feature/Http/Controllers/HomeControllerTest.php" tests="1" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.017469">
+        <testcase name="test_it_returns_correct_data" class="Tests\Feature\Http\Controllers\HomeControllerTest" classname="Tests.Feature.Http.Controllers.HomeControllerTest" file="/Users/sonkun/workspace/laravel-ci-sample/tests/Feature/Http/Controllers/HomeControllerTest.php" line="9" assertions="3" time="0.017469"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
