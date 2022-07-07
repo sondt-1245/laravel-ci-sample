@@ -1,0 +1,25 @@
+.skip-deploy: &skip-deploy
+  messages:
+  - '[ci skip deploy]'
+
+
+stages:
+- Test
+
+jobs:
+- name: Test Result
+  stage: Test
+  services:
+    - docker:stable-dind
+    - redis:alpine
+    - image: postgres:12-alpine
+      environment:
+      - POSTGRES_DB=sun_ci
+      - POSTGRES_USER=sun_ci
+      - POSTGRES_PASSWORD=secret
+  script:
+    - echo ok
+    - echo "Cache $CI_BUILD_NUMBER\n" >> cache
+    - cat cache
+    - sleep 10
+  image: docker:stable
