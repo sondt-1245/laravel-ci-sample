@@ -18,6 +18,7 @@
         "fake-frame": "new21072022",
         "fake-framework": "new21072022.1",
         "fake-library": "npm:aaaa@something.new21072022.1",
+        "fake-librar2y": "npm:aaaa@v1.alpha.1",
      
     }
 }
