@@ -14,12 +14,12 @@
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14",
-        "nextjs/next": "2.alpha.1",
-        "fake-frame": "new21072022",
-        "fake-framework": "new21072022.1",
-        "fake-library": "npm:aaaa@something.new21072022.1",
-        "fake-librar2y": "npm:aaaa@1.alpha.1",
-        "fake-libraryyy": "npm@1.alpha.1"
+        "20220804nextjs/next": "2.alpha.1",
+        "20220804fake-frame": "new21072022",
+        "20220804fake-framework": "new21072022.1",
+        "20220804fake-library": "npm:aaaa@something.new21072022.1",
+        "20220804fake-librar2y": "npm:aaaa@1.alpha.1",
+        "20220804fake-libraryyy": "npm@1.alpha.1"
      
     }
 }
